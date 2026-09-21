@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Volunteer Board</title>
+</head>
+
+<body>
+<h1> Volunteer Board</h1>
+<p> Manage volunteer tasks and assignments.</p>
+
+<main>
+    <section>
+        <h2>
+            Add Task
+        </h2>
+
+        <form>
+            <label for="task-title">Task title</label>
+            <input id="task-title" type="text">
+
+            <label for="task-date">Date</label>
+            <input id="task-date" type="date">
+
+            <label for="task-team">Team</label>
+            <select id = "task-team">
+                <option value= "logistics">Logistics</option>
+                <option value = "media">Media</option>
+                <option value = "developer">Developer</option>
+            </select>
+
+            <label for="task-status">Status</label>
+            <select id="task-status">
+                <option value="todo">To do</option>
+                <option value="doing">Doing</option>
+                <option value="done">Done</option>
+            </select>
+
+            <button type="submit">Add Task</button>
+        </form>
+    </section>
+
+    <section>
+    <h2>Tasks</h2>
+
+    <ul>
+        <li>Prepare welcome desk</li>
+        <li>Design recruitment poster</li>
+        <li>Update volunteer website</li>
+    </ul>
+
+</section>
+
+</main>
+</body>
+</html>
