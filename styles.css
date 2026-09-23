@@ -1,0 +1,30 @@
+body {
+    background-color: lightblue;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    display: grid;
+    gap: 12px;
+}
+
+input,
+select,
+button {
+    width: 100%;
+    padding: 10px;
+}
+
+section {
+    margin-bottom : 24px;
+}
